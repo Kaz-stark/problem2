@@ -6,16 +6,17 @@
 
 ## 使い方
 - 以下を実行します。  
-``
+```
   $ git clone https://github.com/Kaz-stark/problem2.git  
 
   $ cd problem2  
 
   $  ros2 run mypkg humidity  
-``  
+```  
 - 次に別のターミナルを開いて以下を実行します。  
-``$ ros2 topic echo /tokyo_humidity --field data | awk '{print "本日の東京の湿度は " $1 "%"}'
-``  
+```  
+$ ros2 topic echo /tokyo_humidity --field data | awk '{print "本日の東京の湿度は " $1 "%"}'
+``` 
 
 ## 必要なソフトウェア  
 - Python
