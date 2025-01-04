@@ -6,7 +6,8 @@
 
 ## 使い方
 - 以下を実行します。  
-``$ git clone https://github.com/Kaz-stark/problem2.git  
+``
+  $ git clone https://github.com/Kaz-stark/problem2.git  
 
   $ cd problem2  
 
@@ -18,7 +19,7 @@
 
 ## 必要なソフトウェア  
 - Python
-  - テスト済みのバージョン: 3.7~3.12  
+  - テスト済みのバージョン: 3.7~3.10  
 
 ## テスト環境  
 - Ubuntu 24.04 LTS
