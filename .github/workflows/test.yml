@@ -7,4 +7,8 @@ jobs:
     steps:
       - uses: actions/chaechout@v2
       - name: build and test
-        run: bash -xv ./test.bash
+        run: | 
+          rsync -av ./ /root/ros2_ws/src/mypkg
+          cd /root/ros_ws
+          cd /root/ros2_ws
+          bash -xv ./src/mypkg/mypkg/humidity.py
