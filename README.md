@@ -33,10 +33,13 @@ $ ros2 topic echo /tokyo_humidity --field data | awk '{print "本日の東京の
     - [ryuichiueda/my_slides robosys_2022] (https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)  
 
 ### 参考記事
-- https://ryuichiueda.github.io/slides_marp/robosys2024/lesson5.html#1  
-- https://ryuichiueda.github.io/slides_marp/robosys2024/lesson6.html  
-- https://ryuichiueda.github.io/slides_marp/robosys2024/lesson8.html#24  
-- https://ryuichiueda.github.io/slides_marp/robosys2024/lesson10.html#4  
-- https://qiita.com/Dorebom/items/47fb67e5e47a205f1395  
-- https://murasan-net.com/2024/09/23/ros2-publisher-subscriber-python/  
+- [著作権とライセンス](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson5.html#1)  
+- [ソフトウェアのテスト](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson6.html)  
+- [GitHubでのテスト](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson7.html#1)
+- [Robot Operating System(ROS 2)](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson8.html#24)  
+- [ROSシステムのテスト](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson10.html#4)  
+- [ROS2 publisher/subscriber node(+topic)の作成](https://qiita.com/Dorebom/items/47fb67e5e47a205f1395)  
+- [Pythonで学ぶROS2ノード開発：パブリッシャーとサブスクライバーの基本ROS2で通信する](https://murasan-net.com/2024/09/23/ros2-publisher-subscriber-python/)  
+  
+
 
