@@ -30,4 +30,13 @@ $ ros2 topic echo /tokyo_humidity --field data | awk '{print "本日の東京の
 - © 2024 Kazuya Ochiai  
 - このソフトウェアパッケージは、3条項BSDライセンスのもと、再配布および利用が許可されています。  
 - このパッケージのコードは、Ryuichi Ueda氏本人の許可を得て、下記のスライド(© 2024 Ryuichi Ueda) (CC-BY-SA4.0 by Ryuichi Ueda)のものを一部参考にし、自身の著作として作成されたものです。  
-    - [ryuichiueda/my_slides robosys_2022] (https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
+    - [ryuichiueda/my_slides robosys_2022] (https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)  
+
+### 参考記事
+- https://ryuichiueda.github.io/slides_marp/robosys2024/lesson5.html#1  
+- https://ryuichiueda.github.io/slides_marp/robosys2024/lesson6.html  
+- https://ryuichiueda.github.io/slides_marp/robosys2024/lesson8.html#24  
+- https://ryuichiueda.github.io/slides_marp/robosys2024/lesson10.html#4  
+- https://qiita.com/Dorebom/items/47fb67e5e47a205f1395  
+- https://murasan-net.com/2024/09/23/ros2-publisher-subscriber-python/  
+
