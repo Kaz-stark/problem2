@@ -2,7 +2,7 @@
 
 ## 概要
 - humidityは課題2のために作成されたコマンドです。  
-- 新しいターミナルを起動し、パブリッシャノードを実行します。続いて別のターミナルを起動してパブリッシャノードから送信したメッセージを見ることで東京の湿度を知ることができる。
+- 新しいターミナルを起動し、パブリッシャノードを実行します。続いて別のターミナルを起動してパブリッシャノードから送信したメッセージを見ることで東京の湿度を知ることができます。
 
 ## 使い方
 - 以下を実行します。  
@@ -27,12 +27,12 @@ $ ros2 topic echo /tokyo_humidity --field data | awk '{print "本日の東京の
 
 ## 権利関係    
 ### 権利  
-- © 2024 Kazuya Ochiai  
 - このソフトウェアパッケージは、3条項BSDライセンスのもと、再配布および利用が許可されています。  
-- このパッケージのコードは、Ryuichi Ueda氏本人の許可を得て、下記のスライド(© 2024 Ryuichi Ueda) (CC-BY-SA4.0 by Ryuichi Ueda)のものを一部参考にし、自身の著作として作成されたものです。  
+- このパッケージのコードは、Ryuichi Ueda氏本人の許可を得て、下記のスライド(CC-BY-SA4.0 by Ryuichi Ueda)のものを一部参考にし、自身の著作として作成されたものです。  
     - [ryuichiueda/my_slides robosys_2022] (https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)  
+- © 2025 Kazuya Ochiai
 
-### 参考記事
+### 参考資料
 - [著作権とライセンス|上田隆一](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson5.html#1)  
 - [ソフトウェアのテスト|上田隆一](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson6.html)  
 - [GitHubでのテスト|上田隆一](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson7.html#1)
