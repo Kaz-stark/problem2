@@ -1,7 +1,5 @@
-name: test_humidity
-
+"""name: test_humidity
 on: push
-
 jobs:
   test:
     runs-on: ubuntu-24.04
@@ -10,8 +8,42 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       
-      - name: build and test
+      - name: Set up test environment
+        run: |
+          chmod +x test/test_humidity.bash
+          
+      - name: Build and test
         run: |
           rsync -av ./ /root/ros2_ws/src/mypkg/
           cd /root/ros2_ws
           bash -xv ./src/mypkg/test/test_humidity.bash /root
+
+      - name: Clean up
+        if: always()
+        run: |
+          rm -f /tmp/humidity_output.txt  """
+
+name: test_humidity
+on: push
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    container: ryuichiueda/ubuntu22.04-ros2:latest
+    
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Set up test environment
+        run: |
+          chmod +x test/test_humidity.bash
+          
+      - name: Build and test
+        run: |
+          rsync -av ./ /root/ros2_ws/src/mypkg/
+          cd /root/ros2_ws
+          bash -xv ./src/mypkg/test/test_humidity.bash /root
+
+      - name: Clean up
+        if: always()
+        run: |
+          rm -f /tmp/humidity_output.txt
