@@ -17,6 +17,8 @@
 ```  
 $ ros2 topic echo /tokyo_humidity --field data | awk '{print "本日の東京の湿度は " $1 "%"}'
 ``` 
+## ノードの説明
+本日の東京の湿度は〇%のように、一秒ごとに30-80%の範囲でランダムな値が表示される。
 
 ## 必要なソフトウェア  
 - Python
@@ -27,7 +29,7 @@ $ ros2 topic echo /tokyo_humidity --field data | awk '{print "本日の東京の
 
 ## 権利関係    
 ### 権利  
-- このソフトウェアパッケージは、3条項BSDライセンスのもと、再配布および利用が許可されています。  
+- このソフトウェアパッケージは、3条項BSDライセンスの下、再配布および利用が許可されています。  
 - このパッケージのコードは、Ryuichi Ueda氏本人の許可を得て、下記のスライド(CC-BY-SA4.0 by Ryuichi Ueda)のものを一部参考にし、自身の著作として作成されたものです。  
     - [ryuichiueda/my_slides robosys_2022] (https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)  
 - © 2025 Kazuya Ochiai
