@@ -3,7 +3,7 @@
 <package format="3">
   <name>mypkg</name>
   <version>0.0.0</version>
-  <description>a package for practice</description>
+  <description>指定したファイルの最新更新日を提示します。</description>
   <maintainer email="s23C1033WD@s.chibakoudai.jp">kazu0709</maintainer>
   <license>BSD-3-Clause</license>
   <exec_depend>rclpy</exec_depend>
