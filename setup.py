@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'mypkg'
+package_name = 'problem2'
 
 setup(
     name=package_name,
@@ -15,13 +15,12 @@ setup(
     zip_safe=True,
     maintainer='kazu0709',
     maintainer_email='s23C1033WD@s.chibakoudai.jp',
-    description='a package for practice',
+    description='指定したファイルの最新更新日を提示します。',
     license='BSD-3-Clause',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'humidity = mypkg.humidity:main',
-           # 'listener = mypkg.listener:main',
+            'pub_node = problem2.pub_node:main',
         ],
     },
 )
